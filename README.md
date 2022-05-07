@@ -83,6 +83,7 @@ Download ffmpeg for windows from this **[link](https://drive.google.com/drive/fo
 ![](/Images/step3.jpg)
 
 * Click on new
+
 ![](/Images/step4.jpg)
 
 * And finally paste on the new entry the path in where you placed the ffmpeg_widows file

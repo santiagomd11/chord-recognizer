@@ -5,9 +5,13 @@
 ---
 ## **Steps of use (using the terminal)**:
 
-**YOU NEED FIRST PYTHON 3.8.10 (i use this version of python for the project)**
+* **YOU NEED FIRST PYTHON 3.8.10 (i use this    version of python for the project)**
 
-This can be downloaded from the official webpage of python: https://www.python.org/downloads/release/python-3810/
+    This can be downloaded from the official webpage of python: https://www.python.org/downloads/release/python-3810/
+
+* You can follow this **[video](https://youtu.be/zQ3w5fg5qbI)** or you can use the following guide for the installation.
+
+
 
 
 ## For linux

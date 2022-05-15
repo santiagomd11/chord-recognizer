@@ -165,6 +165,7 @@ You have to make a folder(i made it in the C disk)and open it in the terminal (u
 
 The annotations for each audio have the following structure: 
 ![](/Images/Annotation_struct.png)
+
 The annotations were gotten from five sources, and the audios were gotten manually, because they were not given for copyright reasons. The number of pairs of audios and annotations for each dataset is showed as follow:
 
 * [Isophonics](http://www.isophonics.net/content/reference-annotations-beatles): 163

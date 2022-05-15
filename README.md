@@ -185,5 +185,5 @@ The dataset were organized in the [McGill Billboard](https://ddmal.music.mcgill.
 
 * test: 123
 
-The full dataset with the annotations and the audios is available **[Here](https://drive.google.com/file/d/1KP_UJPdOgFA-I7vL7BjNO2Vz6FdQEQUk/view)**. If you use it give credits to the autor with the **[link](https://github.com/santiagomd11/chord-recognizer)** of the repository or with the following cite "Santiago Montaño Diaz. (2022). Identificación automática de acordes musicales utilizando Machine learning. Universidad de los andes, Bogotá, Colombia." because get the audio for each annotation and organize the data required a hard work from the autor.
+The full dataset with the annotations and the audios is available **[Here](https://drive.google.com/file/d/1KP_UJPdOgFA-I7vL7BjNO2Vz6FdQEQUk/view)**. If you use it give credits to the author with the **[link](https://github.com/santiagomd11/chord-recognizer)** of the repository or with the following cite "Santiago Montaño Diaz. (2022). Identificación automática de acordes musicales utilizando Machine learning. Universidad de los andes, Bogotá, Colombia." because get the audio for each annotation and organize the data required a hard work from the author.
 

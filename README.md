@@ -2,6 +2,9 @@
 
 ## This is a chord recognizer for natural chords (maj, min). The recognition proccess uses a CNN for the chord classification and a HMM for time of onset and offset  detection of each chord. The project have a interactive GUI for youtube songs classification.
 
+## **Demo of chord-recognizer is** **[here](https://youtu.be/3b4xgkvJZRE)**
+
+
 ---
 ## **Steps of use (using the terminal)**:
 
@@ -158,8 +161,28 @@ You have to make a folder(i made it in the C disk)and open it in the terminal (u
 * You have play, stop, return buttons and a slider to move along the song.
 
 ---
+## Datasets
 
-## **Demo of chord-recognizer is** **[here](https://youtu.be/3b4xgkvJZRE)**
+The annotations for each audio have the following structure: 
+![](/Images/Annotation_struct.png)
+The annotations were gotten from five sources, and the audios were gotten manually, because they were not given for copyright reasons. The number of pairs of audios and annotations for each dataset is showed as follow:
 
+* [Isophonics](http://www.isophonics.net/content/reference-annotations-beatles): 163
+* [McGill Billboard](https://ddmal.music.mcgill.ca/research/The_McGill_Billboard_Project_(Chord_Analysis_Dataset)/): 270
 
----
+* [USPOP2002](http://labrosa.ee.columbia.edu/projects/musicsim/uspop2002.html): 68
+
+* Robie williams: 43
+
+* Zweick: 17
+
+* Total: 561
+
+The dataset were organized in the [McGill Billboard](https://ddmal.music.mcgill.ca/research/The_McGill_Billboard_Project_(Chord_Analysis_Dataset)/) format, and were splitted in train and test sets, the number of pairs of audios and annotations for each set is showed as follow:
+
+* train: 438 
+
+* test: 123
+
+The full dataset with the annotations and the audios is available **[Here](https://drive.google.com/file/d/1KP_UJPdOgFA-I7vL7BjNO2Vz6FdQEQUk/view)**. If you use it give credits to the autor with the **[link](https://github.com/santiagomd11/chord-recognizer)** of the repository or with the following cite "Santiago Montaño Diaz. (2022). Identificación automatica de acordes musicales utilizando Machine learning. Universidad de los andes, Bogotá, Colombia." because get the audio for each annotation and organize the data required a hard work from the autor.
+

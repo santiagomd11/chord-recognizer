@@ -8,19 +8,32 @@
 ---
 ## **Steps of use (using the terminal)**:
 
-* **YOU NEED FIRST PYTHON 3.8.10 (i use this    version of python for the project)**
-
-    This can be downloaded from the official webpage of python: https://www.python.org/downloads/release/python-3810/
-
-* You can follow this **[video](https://youtu.be/zQ3w5fg5qbI)** or you can use the following guide for the installation.
+* You can follow this **[video](https://youtu.be/zQ3w5fg5qbI)** or you can use the following guide for the installation. (deprecated use the guide)
 
 
 
 
-## For linux
-You have to make a folder and open it in the terminal (using cd command), the you have to follow the next steps
+## For Ubuntu-linux
+* **YOU NEED FIRST A VERSION OF PYTHON 3.8 (you can use this commands to install it)**
+    ```bash
+    sudo add-apt-repository ppa:deadsnakes/ppa 
+    ```
+    ```bash
+    sudo apt-get update  
+    ```
+    ```bash
+    sudo apt install python3.8 
+    ```
+* You have to make a folder and open it in the terminal
 
-* clone the respository in your folder with the following line
+
+    ```bash
+    mkdir chord_recognizer
+    ```
+    ```bash
+    cd chord_recognizer
+    ```
+* clone the respository inside your folder with the following line
 
 
     ```bash
@@ -31,6 +44,20 @@ You have to make a folder and open it in the terminal (using cd command), the yo
 
 *  Download **[Here](https://drive.google.com/drive/folders/19NX9zFIGRTnaMxOJRTUrqHzicNxPMeMS?usp=sharing)** here the models for the project. Then copy the Models folder and place it in the same folder where you cloned the repo.
 
+* Install required packages for Cpython and madmom and also tkinter and ffmpeg for linux, with the following commands:
+
+    ```bash
+    sudo apt install python3.8-distutils
+    ```
+    ```bash
+    sudo apt-get install python3.8-dev
+    ```
+    ```bash
+    sudo apt install python3.8-tk
+    ```
+    ```bash
+    sudo apt install ffmpeg
+    ```
 * Create a virtual enviroment for install dependecies without modifying your computer packages
 
     if you don't have vitualenv package installed run this command line:
@@ -46,7 +73,7 @@ You have to make a folder and open it in the terminal (using cd command), the yo
     Then in the folder where you cloned the repo run this command line to create the virtualenv:
 
     ```bash
-    virtualenv --python python3.8.10 venv
+    virtualenv --python python3.8 venv
     ```
 
 * Run the program
@@ -56,6 +83,14 @@ You have to make a folder and open it in the terminal (using cd command), the yo
     ```bash
     source venv/bin/activate
     ```
+    Then install this packages first to avoid errors in the installation
+    ```bash
+    python -m pip install Cython==0.29.14
+    ```
+    ```bash
+    python -m pip install numpy==1.19.5
+    ``` 
+
     Then install the requirements of the project:
     ```bash
     python -m pip install -r requirements.txt
@@ -64,7 +99,7 @@ You have to make a folder and open it in the terminal (using cd command), the yo
     Finally run the program
 
      ```bash
-    cd "Scripts/recorded files"
+    cd "Scripts/recorded_files"
     ``` 
     ```bash
     chmod +x gui.py recorded_files.py
@@ -74,6 +109,10 @@ You have to make a folder and open it in the terminal (using cd command), the yo
     ``` 
 
 ## For windows
+* **YOU NEED FIRST PYTHON 3.8.10 (i use this    version of python for the project)**
+
+    This can be downloaded from the official webpage of python: https://www.python.org/downloads/release/python-3810/
+
 
 Download ffmpeg for windows from this **[link](https://drive.google.com/drive/folders/1XcaDCQ4I0_MwtHclJ72JXfcqYf2MRr-U?usp=sharing)** and place it in a local disk of your computer (i place it in the C disk) and then follow the next steps for setting ffmpeg for windows:
 
@@ -133,7 +172,7 @@ You have to make a folder(i made it in the C disk)and open it in the terminal (u
     ```bash
     venv\Scripts\activate.bat
     ```
-    Then install this packages to avoid errors in the installation
+    Then install this packages first to avoid errors in the installation
     ```bash
     python -m pip install Cython==0.29.14
     ```
@@ -148,7 +187,7 @@ You have to make a folder(i made it in the C disk)and open it in the terminal (u
     Finally run the program
 
      ```bash
-    cd "Scripts\recorded files"
+    cd "Scripts\recorded_files"
     ``` 
     ```bash
     python gui.py

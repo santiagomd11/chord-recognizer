@@ -257,6 +257,8 @@ class GUI(RecordesFilesRecognition):
 
     def run_gui(self):
         self.root = Tk()
+        chord_recognizer_icon= tk.PhotoImage(file=os.path.join('images', 'chord_recognizer.png'))
+        self.root.tk.call('wm', 'iconphoto', self.root._w, chord_recognizer_icon)
         self.root.title('Chord recognizer')
         self.root.geometry("400x400")
         self.root.resizable(0, 0)
